@@ -1,0 +1,43 @@
+# Binance sample configuration file
+
+[logging]
+level = "info"
+format = "%Y-%m-%d %H:%M:%S"
+
+[connectivity]
+ws_url = "wss://stream.binance.com:9443"
+order_book_depth_stream = "depth"
+order_book_depth_update_speed = "100ms"
+
+# Each connection represents 1 Symbol / 1 WebSocket connection / 1 Thread
+[[connectivity.connections]]
+symbol = "btcusdt"
+# Additonal streams can be added here if needed
+# additional_streams = ["trade", "ticker", "bookTicker"]
+
+[[connectivity.connections]]
+symbol = "ethusdt"
+
+[[connectivity.connections]]
+symbol = "xrpusdt"
+
+[[connectivity.connections]]
+symbol = "bnbusdt"
+
+[[connectivity.connections]]
+symbol = "solusdt"
+
+[[connectivity.connections]]
+symbol = "trxusdt"
+
+[[connectivity.connections]]
+symbol = "dogeusdt"
+
+[[connectivity.connections]]
+symbol = "adausdt"
+
+[[connectivity.connections]]
+symbol = "bchusdt"
+
+[[connectivity.connections]]
+symbol = "xlmusdt"

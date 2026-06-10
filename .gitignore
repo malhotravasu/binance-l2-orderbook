@@ -1,0 +1,19 @@
+# C++ build artifacts
+build/
+*.so
+*.a
+*.out
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+dist/
+wheels/
+*.egg-info
+.ruff_cache/
+
+# Virtual environments
+.venv
+
+# Misc
+.vscode/

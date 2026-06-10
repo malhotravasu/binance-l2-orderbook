@@ -1,0 +1,35 @@
+---
+Language: Cpp
+Standard: c++20
+IndentWidth: 4
+UseTab: Never
+ColumnLimit: 144
+IndentCaseLabels: true
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+BreakBeforeBraces: Attach
+PointerAlignment: Left
+ReferenceAlignment: Left
+DerivePointerAlignment: false
+SpaceAfterCStyleCast: true
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeParens: ControlStatements
+SpacesInAngles: false
+SpacesInContainerLiterals: false
+SpacesInCStyleCastParentheses: false
+AccessModifierOffset: -4
+ConstructorInitializerIndentWidth: 4
+ContinuationIndentWidth: 4
+NamespaceIndentation: All
+BinPackArguments: false
+BinPackParameters: false
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignOperands: true
+AlignTrailingComments: true
+ReflowComments: true
+MaxEmptyLinesToKeep: 1
+AlwaysBreakTemplateDeclarations: true
+AlignAfterOpenBracket: BlockIndent
+...
